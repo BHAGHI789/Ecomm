@@ -1,0 +1,68 @@
+{% extends './base.html' %}
+{% load static %}
+{% block title %}About us{% endblock title%}
+{% block banner_slide %}
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="{% static 'images/banner/b1.jpg' %}" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'images/banner/b2.jpg' %}" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'images/banner/b3.jpg' %}" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="{% static 'images/banner/b4.jpg' %}" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+{% endblock banner_slide %}
+{% block main-content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="text-center bg-primary">Dodla Dairy, one of India's top three private diary companies, is actively looking at
+                inorganic growth opportunities and
+                has already finalised an acquisition in Kenya and acquired Sri Krishna Dairy this year.
+                Speaking to CNBC-TV18, Sunil Reddy Dodla, MD of Dodla Dairy said, “....capex plans for the current year (is
+                concerned),
+                we had already taken on a new feed plant, which we are anticipating to come into production by April of the year 23.
+                We
+                are also done a little bit of expansion on our procurement network as to say that number of chillings centers have
+                increased and created a new, smaller collection centers across 22 villages or 22 centers, as we would call it.”
+                He added, “We have just finalized an acquisition in Kenya and hopefully we will be able to finish the acquisition by
+                end
+                February and get it into production maybe by the first quarter of next year.”
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="text-center bg-primary">Dodla Dairy, one of India's top three private diary companies, is actively looking at
+                inorganic growth opportunities and
+                has already finalised an acquisition in Kenya and acquired Sri Krishna Dairy this year.
+                Speaking to CNBC-TV18, Sunil Reddy Dodla, MD of Dodla Dairy said, “....capex plans for the current year (is
+                concerned),
+                we had already taken on a new feed plant, which we are anticipating to come into production by April of the year 23.
+                We
+                are also done a little bit of expansion on our procurement network as to say that number of chillings centers have
+                increased and created a new, smaller collection centers across 22 villages or 22 centers, as we would call it.”
+                He added, “We have just finalized an acquisition in Kenya and hopefully we will be able to finish the acquisition by
+                end
+                February and get it into production maybe by the first quarter of next year.”
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock main-content %}
